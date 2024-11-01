@@ -1,0 +1,23 @@
+$basic-color:  red;
+
+
+.nav {
+    display: flex;
+    width: 100%;
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        li {
+            display: flex;
+            align-items: center;
+        }
+        a{
+            font-size:24px;
+            display:block;
+        }
+    }
+}

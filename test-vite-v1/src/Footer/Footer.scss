@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #333333;
+    color: #ffffff;
+
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 1em;
+    }
+
+    a {
+        color: #646cff;
+        text-decoration: none;
+    }
+}
